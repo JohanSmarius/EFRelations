@@ -26,8 +26,6 @@ namespace ConsoleApp1
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-
-            modelBuilder.Entity<Tertiary>().HasOne<Primary>();
         }
     }
 }
